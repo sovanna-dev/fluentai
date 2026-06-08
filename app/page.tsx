@@ -1,4 +1,5 @@
 import FeatureCard from './components/FeatureCard';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
@@ -7,18 +8,18 @@ export default function Home() {
       <nav className="flex items-center justify-between px-8 py-4 border-b">
         <div className="flex items-center gap-2">
           <span className="text-2xl">🚀</span>
-          <span className="text-xl font-bold text-blue-600">FluentAI</span>
+          <span className="text-xl font-bold text-purple-600">FluentAI</span>
         </div>
 
         <div className="hidden md:flex items-center gap-8">
-          <a href="#" className="text-gray-600 hover:text-blue-600">Features</a>
-          <a href="#" className="text-gray-600 hover:text-blue-600">Pricing</a>
-          <a href="#" className="text-gray-600 hover:text-blue-600">About</a>
+          <a href="#" className="text-gray-600 hover:text-purple-600">Features</a>
+          <a href="#" className="text-gray-600 hover:text-purple-600">Pricing</a>
+          <a href="#" className="text-gray-600 hover:text-purple-600">About</a>
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="text-gray-600 hover:text-blue-600">Login</button>
-          <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700">
+          <button className="text-gray-600 hover:text-purple-600">Login</button>
+          <button className="bg-purple-600 text-white px-6 py-2 rounded-lg hover:bg-purple-700">
             Get Started
           </button>
         </div>
@@ -28,7 +29,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center px-4 py-20 text-center">
         <h1 className="text-5xl md:text-7xl font-bold mb-6">
           Master English with
-          <span className="text-blue-600"> AI Power</span>
+          <span className="text-purple-600"> AI Power</span>
         </h1>
 
         <p className="text-xl text-gray-600 mb-10 max-w-2xl">
@@ -37,25 +38,25 @@ export default function Home() {
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition">
+          <button className="bg-purple-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-purple-700 transition">
             Start Learning Free 🚀
           </button>
-          <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:border-blue-600 hover:text-blue-600 transition">
+          <button className="border-2 border-gray-300 text-gray-700 px-8 py-4 rounded-lg text-lg font-semibold hover:border-purple-600 hover:text-purple-600 transition">
             Watch Demo ▶️
           </button>
         </div>
 
         <div className="flex gap-12 mt-20">
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">10K+</div>
+            <div className="text-3xl font-bold text-purple-600">10K+</div>
             <div className="text-gray-600">Active Learners</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">50+</div>
+            <div className="text-3xl font-bold text-purple-600">50+</div>
             <div className="text-gray-600">AI Scenarios</div>
           </div>
           <div className="text-center">
-            <div className="text-3xl font-bold text-blue-600">4.8</div>
+            <div className="text-3xl font-bold text-purple-600">4.8</div>
             <div className="text-gray-600">User Rating</div>
           </div>
         </div>
@@ -97,7 +98,8 @@ export default function Home() {
           />
         </div>
       </section>
-
+      
+      <Footer />
     </div>
   );
 }
