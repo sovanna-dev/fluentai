@@ -1,4 +1,3 @@
-// This is a reusable component - like a LEGO piece!
 interface FeatureCardProps {
   icon: string;
   title: string;
